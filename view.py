@@ -10,5 +10,6 @@ class view:
 
 class main (view):
     "this is example usage of view "
-    def show_error(self,text):
+    
+    def show_text(self,text):
         print (text)
