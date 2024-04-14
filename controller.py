@@ -15,6 +15,7 @@ class main (controller) :
         
         try:
             self.model.start()
+            self.view.show_text("started ")
             
         except Exception as error:
-            self.view.show_error("an error occuered while starting",error)
+            self.view.show_text("an error occured while starting")
