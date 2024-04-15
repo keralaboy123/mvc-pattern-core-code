@@ -11,7 +11,7 @@ easy to understand
       we must start execution from controller. controller will start graphical user interface (view functions)
       and it will start core backend code ( model functions).
       we should not call model functions from view and we should not call view functions from model. 
-      controller is responsible for managing thse seperated codes communicatin
+      controller is responsible for managing communication of these seperated codes 
 </pre>
 
 ### what are these files
