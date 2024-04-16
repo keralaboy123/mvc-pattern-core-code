@@ -1,6 +1,7 @@
 # mvc-pattern-core-code
-this files are used for creating mvc style professional code from simple class in python language.
-written in easy to understand way. just save these files into your project folder and  use inheritance to extend its functions.
+these files are used for creating mvc style professional code from simple class in python language.
+
+written in easy to understand way. just save these files into your project folder ,import classes and  use inheritance to extend its functions.
 
 
 
