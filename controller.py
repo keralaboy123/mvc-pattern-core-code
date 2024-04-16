@@ -1,6 +1,3 @@
-
-
-
 class controller  :
     def __init__(self,view , model):
         self.view = view
@@ -11,11 +8,12 @@ class main (controller) :
     
     "this is an example code for extending idea "
     
-    def start(self):
+    def run(self):
         
         try:
-            self.model.start()
-            self.view.show_text("started ")
+            text = self.view.ask_question("enter some text it will be saved to file")
+            self.model.save_to_file(text)
+            self.view.show_text("successfully writen to file")
             
         except Exception as error:
-            self.view.show_text("an error occured while starting")
+            self.view.show_text("an error occuered while saving to file")
