@@ -11,5 +11,9 @@ class view:
 class main (view):
     "this is example usage of view "
     
+    def ask_question(self,text):
+        return input(text)
+    
     def show_text(self,text):
         print (text)
+
