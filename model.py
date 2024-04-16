@@ -4,5 +4,10 @@ class model:
 
 class main (model):
     "this is an example code for extending idea "
-    def start( self):
-        print (" model started ")
+    
+    def save_to_file( self,text):
+           file = open("helo.txt","w")
+           file.write(text)
+           file.close()
+           
+
