@@ -1,4 +1,3 @@
-
 import view
 import model
 import controller
@@ -6,9 +5,9 @@ import controller
 
 class mvc:
     def __init__(self):
-        self.view = view.main()
-        self.model = model.main()
-        self.controller = controller.main(self.view, self.model)
+        self.view = view.example()
+        self.model = model.example()
+        self.controller = controller.example(self.view, self.model)
         self.view.set_controller(self.controller)
 
 class main(mvc):
