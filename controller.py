@@ -4,9 +4,9 @@ class controller  :
         self.model = model
 
 
-class main (controller) :
+class example (controller) :
     
-    "this is an example code for extending idea "
+    "this is an example code "
     
     def run(self):
         
