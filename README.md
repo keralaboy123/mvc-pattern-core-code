@@ -2,6 +2,7 @@
 these files are used for creating mvc style professional code from simple class in python language.
 
 written in easy to understand way. just save these files into your project folder ,
+
 either overwrite model view controller files or create subclasses and extend those classes
 
 
