@@ -10,7 +10,7 @@ class mvc:
         self.controller = controller.example(self.view, self.model)
         self.view.set_controller(self.controller)
 
-class main(mvc):
+class example(mvc):
 
     "entrypoint of this software .it is written in mvc design pattern"
     "extend this class and create your own implementation "
@@ -23,4 +23,4 @@ class main(mvc):
 
 
 if __name__ == "__main__":
-    main().run()
+    example().run()
