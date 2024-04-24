@@ -8,7 +8,7 @@ class view:
     def __init__(self):
         self.controller = None
 
-class main (view):
+class example (view):
     "this is example usage of view "
     
     def ask_question(self,text):
