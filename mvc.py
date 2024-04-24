@@ -10,7 +10,7 @@ class mvc:
     
     def __init__(self):
         self.view = view.view()
-        self.model = model.modele()
+        self.model = model.model()
         self.controller = controller.controller(self.view, self.model)
         self.view.set_controller(self.controller)
 
