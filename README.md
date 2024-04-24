@@ -7,13 +7,16 @@ written in easy to understand way. just save these files into your project folde
 
 ### what is mvc design pattern
 <pre>
-   it a way of writing code .it is a way  to create a professional or easly maintainable and easy to understand code 
+   it a way of writing code .it is a way  to create a professional or 
+   easly maintainable and easy to understand code 
    to do it we should seperate code into 3 things.called model view and controller.
+   
    it means
-      we must start execution from controller. controller will start graphical user interface (view functions)
-      and it will start core backend code ( model functions).
-      we should not call model functions from view and we should not call view functions from model. 
-      controller is responsible for managing communication of these seperated codes 
+      * we must start execution from controller. 
+      * controller will start graphical user interface (view functions)
+      * it will also start core backend code ( model functions).
+      * we should not call model functions from view and we should not call view functions from model. 
+      * controller can view and model functions. so they can communicate
 </pre>
 
 ### what are these files
