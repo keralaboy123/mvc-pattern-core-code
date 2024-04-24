@@ -16,7 +16,8 @@ written in easy to understand way. just save these files into your project folde
       * controller will start graphical user interface (view functions)
       * it will also start core backend code ( model functions).
       * we should not call model functions from view and we should not call view functions from model. 
-      * controller can view and model functions. so they can communicate
+      * controller can call view and model functions. so they can communicate
+   if you implemented this basic code then it automaticaly becomes a professional code
 </pre>
 
 ### what are these files
