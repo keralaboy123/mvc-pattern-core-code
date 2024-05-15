@@ -35,7 +35,6 @@ either overwrite model view controller files or create subclasses and extend tho
       contains graphical user interface
    
    controller.py
-      it contain business logic
       it contain code responsible for managing model and view.
       
       
